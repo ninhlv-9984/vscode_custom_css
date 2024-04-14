@@ -1,0 +1,11 @@
+.active-item-indicator {
+  color: black !important;
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator:before {
+  border-right-color: black !important;
+}
+
+.monaco-workbench .activitybar > .content :not(.monaco-menu) > .monaco-action-bar .action-item.checked .active-item-indicator:before {
+  border-left-color: black !important;
+}
